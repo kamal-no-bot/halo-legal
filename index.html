@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halo — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#fff; --fg:#1a1a1a; --muted:#555;
+            --accent:#B23A48; --rule:#e5e5e5; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0f1720; --fg:#e9eef3; --muted:#9fabb6;
+              --accent:#C95563; --rule:#24303b; } }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { background:var(--bg); color:var(--fg);
+           font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI",
+           Roboto, Helvetica, Arial, sans-serif; padding:3rem 1.25rem 5rem; }
+    main { max-width:44rem; margin:0 auto; }
+    h1 { font-size:2rem; line-height:1.2; margin-bottom:.35rem; }
+    .meta { color:var(--muted); font-size:.95rem; margin-bottom:2.25rem; }
+    h2 { font-size:1.25rem; margin:2.25rem 0 .6rem; padding-top:1.5rem;
+         border-top:1px solid var(--rule); }
+    p { margin-bottom:.9rem; } ul { margin:0 0 .9rem 1.4rem; }
+    li { margin-bottom:.45rem; } strong { font-weight:600; }
+    .highlight { border-left:3px solid var(--accent); padding:.75rem 1rem;
+                 margin:1.25rem 0; border-radius:0 8px 8px 0;
+                 background:color-mix(in srgb, var(--accent) 7%, var(--bg)); }
+    a { color:var(--accent); }
+  </style>
+</head>
+<body><main>
+  <h1>Halo — Privacy Policy</h1>
+  <p class="meta">Effective date: July 30, 2026</p>
+
+  <p>Halo is a migraine and headache diary. A health diary is among the most
+  personal data a phone can hold, and Halo is built around that fact. The
+  short version:</p>
+
+  <div class="highlight"><p><strong>Your health data stays on your device and
+  in your own private iCloud.</strong> No accounts, no servers of ours, no
+  ads, no analytics SDKs, no tracking, no data sale — ever. We cannot read
+  your diary.</p></div>
+
+  <h2>Your attack diary</h2>
+  <p>Attacks, symptoms, medications, notes and daily check-ins are stored in a
+  database on your device. If you enable iCloud sync, that database syncs
+  through <em>your own private iCloud (CloudKit) database</em>, under your
+  Apple Account. It is end-to-user private: we operate no server, we hold no
+  copy, and we cannot read it. Sync can be turned off in Settings at any
+  time.</p>
+
+  <h2>Apple Health (cycle and sleep)</h2>
+  <p>With your permission, Halo reads menstrual-cycle and sleep data from
+  Apple Health to look for patterns in your attacks. That analysis happens
+  entirely on your device. Halo writes nothing to Health, and Health data is
+  never included in iCloud sync, exports you didn't ask for, or anything that
+  leaves the device. You can revoke access at any time in
+  Settings&nbsp;→&nbsp;Privacy&nbsp;→&nbsp;Health.</p>
+
+  <h2>Location and weather</h2>
+  <p>Halo uses your approximate, city-level location to fetch local weather
+  (barometric pressure, temperature, humidity) so it can stamp attacks with
+  the conditions before them and build your risk forecast. Weather comes from
+  Apple's Weather service (Apple&nbsp;Weather): the framework sends your
+  approximate location to Apple to answer the lookup, governed by
+  <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a> —
+  we never receive your location. Halo stores the returned weather values,
+  not your coordinates history, and precise location is never requested.</p>
+
+  <h2>Face ID lock</h2>
+  <p>You can lock Halo behind Face ID / Touch ID. Authentication is handled
+  entirely by iOS; Halo only learns "unlocked" or "not unlocked" and never
+  sees biometric data.</p>
+
+  <h2>Notifications</h2>
+  <p>Reminders and medication follow-ups are local notifications scheduled on
+  your device. No push server is involved, and notification content never
+  includes your health details by default.</p>
+
+  <h2>Exports you create</h2>
+  <p>The doctor PDF and CSV export exist so you can share your own data with
+  people you choose. They are generated on-device and go only where you send
+  them. Nothing is exported automatically.</p>
+
+  <h2>Purchases</h2>
+  <p>Halo Pro is sold through Apple's App Store. Apple processes the payment;
+  we never see your payment details. The app stores only an anonymous
+  entitlement status ("Pro is active") on your device.</p>
+
+  <h2>Deleting Your Data</h2>
+  <ul>
+    <li><strong>On device:</strong> delete the app; its local database goes with it.</li>
+    <li><strong>iCloud:</strong> Settings → your name → iCloud → Manage Account
+      Storage → Halo → Delete Data (or disable sync in Halo first).</li>
+    <li><strong>Health:</strong> Halo never writes to Health, so there is
+      nothing of Halo's to remove there; you can revoke its read access any
+      time.</li>
+  </ul>
+
+  <h2>Data Collection Summary</h2>
+  <ul>
+    <li>Health data collected by the developer: <strong>none — we cannot read it</strong></li>
+    <li>Personal data collected by the developer: <strong>none</strong></li>
+    <li>Accounts: <strong>none</strong></li>
+    <li>Analytics or tracking SDKs: <strong>none</strong></li>
+    <li>Ads: <strong>none</strong></li>
+    <li>Data shared with third parties: <strong>none</strong> (weather lookups
+      are answered by Apple as described above)</li>
+    <li>iCloud: optional sync via your private CloudKit database only</li>
+  </ul>
+
+  <h2>Children's Privacy</h2>
+  <p>Halo is not directed at children and collects no personal information
+  from anyone, including children.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If we ever change how Halo handles data, we will update this page and the
+  effective date above before the change ships.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <a href="mailto:engr.kamalnasir@gmail.com">engr.kamalnasir@gmail.com</a></p>
+</main></body>
+</html>
